@@ -1,0 +1,239 @@
+/* large Layout: 1280px. */
+@media only screen and (min-width: 1201px) { 
+    .right_message textarea { width: 1000px }
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .main_menu ul#nav li { padding: 19px 10px }
+    .uk-nav.uk-nav-dropdown li a { margin-top: -29px }
+    .uk-nav.uk-nav-dropdown li {
+        line-height: 0;
+        margin-left: 5px;
+        width: 220px;
+    }
+    .single_portfolio {
+        margin: 2px 5px 2px auto;
+        width: 229px;
+    }
+    .share-btn-wrp { display: block }
+    .mobile_menu { display: none }
+    .panel-danger,
+    .panel-info,
+    .panel-success { width: 100% }
+    .panel > .list-group .list-group-item {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .main_menu ul#nav li { padding: 17px 15px }
+    .uk-nav.uk-nav-dropdown li a { margin-top: -20px }
+    .uk-nav.uk-nav-dropdown li {
+        line-height: 0;
+        margin-left: 0;
+        width: 230px;
+    }
+    .header_text h1 { font-size: 35px }
+    hr { width: 700px }
+    .meet_the_team_single_promo {
+        margin: 40px 0;
+        max-width: 100%;
+        text-align: center;
+    }
+    .team_promo_text h4 {
+        margin: 0 auto;
+        max-width: 700px;
+    }
+    .meet_the_team_heading {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .meet_the_team_single_promo img { width: 70% }
+    ul#filters li { padding: 0 10px }
+    .single_portfolio { width: 230px }
+    .portfolio_icon { left: 25% }
+    .skill_circle {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .carousel-indicators { bottom: -60px }
+    .quote blockquote {
+        padding-top: 53px;
+        font-size: 16px;
+    }
+    .quote blockquote::before { top: 53px }
+    .quote blockquote::after { top: 63px }
+    .share-btn-wrp { display: block }
+    .mobile_menu { display: none }
+    input[type="text"] { width: 300px }
+    .right_message textarea { width: 680px }
+    .panel-danger,
+    .panel-info,
+    .panel-success { width: 100% }
+    .panel > .list-group .list-group-item {
+        margin-left: 0;
+        width: 100%;
+    }
+    .single_about_us img { margin-top: -11px }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .share-btn-wrp { display: none }
+    #scrollUp { right: 30px;bottom: 80px;}
+    .main_menu { display: none }
+    .slicknav_menu {
+        display: block;
+        position: fixed;
+    }
+    .mobile_menu { display: none }
+    .logo img {
+        height: 50px;
+        margin-top: 60px;
+        width: 60px;
+    }
+    .header_text h1 {
+        font-size: 28px;
+        line-height: 30px;
+        margin: 85px auto 40px;
+    }
+    .my_banner_button {
+        font-size: 16px;
+        height: 55px;
+        width: 194px;
+    }
+    .similar_headline h1 { font-size: 25px }
+    .similar_headline h4 { font-size: 14px }
+    .similar_headline { padding: 0px }
+    .top_right_company { padding: 0 }
+    .top_left_company h1 {
+        font-size: 18px;
+        margin-top: -20px;
+    }
+    .top_left_company h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .top_left_company p { font-size: 14px }
+    hr {
+        margin: 10px auto;
+        width: 370px;
+    }
+    .promo_company { padding: 0px 0 }
+    .single_promo_company { padding-bottom: 10px }
+    .meet_the_team_single_promo { margin-bottom: 20px }
+    .meet_the_team_single_promo img {
+        margin: 0;
+        width: 100%;
+    }
+    .meet_the_team_single_promo { margin-bottom: 40px }
+    ul#filters {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    ul#filters li {
+        font-size: 13px;
+        padding: 8px;
+    }
+    ul#filters li::before { top: 6px }
+    .top_right_company {
+        text-align: center;
+        width: 100%;
+    }
+    .top_right_company img { width: 100% }
+    .portfolio_items { text-align: center }
+    .quote_area { padding-top: 0 }
+    .quote blockquote {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 10px auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 85px;
+        width: 310px;
+    }
+    .quote blockquote::before {
+        content: " “ ";
+        font-size: 50px;
+        left: -15px;
+        top: 75px;
+    }
+    .quote blockquote::after {
+        content: " ” ";
+        font-size: 50px;
+        right: -7px;
+        top: 75px;
+    }
+    .slicknav_nav li a {
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .about_us_full { text-align: center }
+    .single_about_us { margin-bottom: 40px }
+    .about_us_text p {
+        font-size: 14px;
+        margin: 0 auto;
+        max-width: 613px;
+        padding-left: 117px;
+    }
+    .about_us_text h2 {
+		font-size: 15px;
+		line-height: 20px;
+		margin-left: 90px;
+    }
+    .about_us_text h5 {
+        font-size: 12px;
+        margin-left: 95px;
+    }
+    .about_us_text { margin: 0 auto }
+    .fotter_top_widget_area { text-align: left }
+    .footer_and_social p {
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-top: 0;
+        text-align: -moz-center;
+    }
+    .social_bookmarks {
+        margin-top: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .footer_and_social .footer_p { text-align: center }
+    .meet_the_team_single_promo { margin-bottom: 0 }
+    .skill_round_bar { padding-bottom: 40px }
+    .circliful {
+        margin: 0 auto;
+        position: relative;
+        width: 100%;
+        float: none;
+    }
+    .panel-danger,
+    .panel-info,
+    .panel-success {
+		margin: 0 auto 40px;
+		max-width: 292px;
+    }
+	.panel > .list-group .list-group-item {
+  border-radius: 0;
+  border-width: 1px 0;
+  cursor: pointer;
+  margin-left: -16px;
+  width: 292px;
+}
+    .pricing { padding-bottom: 20px }
+    input[type="text"] { width: 100% }
+    .right_message textarea { width: 100% }
+    .my_button_third {
+        height: 52px;
+        width: 194px;
+    }
+    input[type="submit"] { font-size: 16px }
+    .single_widget { float: left !important }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .share-btn-wrp { display: none }
+    .slicknav_menu { display: block }
+    .mobile_menu { display: none }
+}
